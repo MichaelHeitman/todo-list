@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #313e4f;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    color: #313e4f;
+}
+
+header > h1 {
+    color: rgb(38, 38, 49);
+    text-align: center;
+    font-family: monospace;
+}
+
+th {
+    border: 3px solid white;
+}
+
+.table-container {
+    text-align: center;
+}
+
+#add-task {
+    
+}
