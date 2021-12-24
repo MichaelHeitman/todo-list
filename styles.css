@@ -15,7 +15,7 @@ header {
 }
 
 header > h1 {
-    color: rgb(38, 38, 49);
+    color: #313e4f;
     text-align: center;
     font-family: monospace;
 }
@@ -25,9 +25,47 @@ th {
 }
 
 .table-container {
+    background-color: white;
     text-align: center;
+    border: 10px solid #313e4f;
+    padding: 0px 0px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.input-container {
+    border-bottom: 2px black solid;
 }
 
 #add-task {
-    
+    background-color: white;
+    color: black;
+    margin: 0px;
+    font-size: 15px;
+    width: 90%;
+    border: none;
+    padding: 5px 0px;
+
+
+}
+
+#add-task-btn {
+    width: 5%;
+}
+
+.task-list-check {
+    width: 5%;
+}
+
+.task-list {
+    background-color: white;
+    color: black;
+    margin: 0px;
+    font-size: 15px;
+    width: 90%;
+    border: none;
+    padding: 5px 0px;
 }
