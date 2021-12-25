@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* max-width: 500px; */
+    /* margin: auto; */
 }
 
 body {
@@ -27,13 +29,14 @@ th {
 .table-container {
     background-color: white;
     text-align: center;
-    border: 10px solid #313e4f;
+    border: 3px solid #313e4f;
     padding: 0px 0px;
     margin: auto;
     margin-top: 20px;
     position: relative;
-    width: 50%;
+    max-width: 500px;
     border-radius: 3px;
+    box-shadow: 25px 75px 2px rgba(0, 247, 255, 0.733);
 }
 
 .input-container {
@@ -58,6 +61,11 @@ th {
 
 .task-list-check {
     width: 5%;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 5px;
+    border-bottom: 2px solid black;
 }
 
 .task-list {
@@ -65,7 +73,10 @@ th {
     color: black;
     margin: 0px;
     font-size: 15px;
-    width: 90%;
-    border: none;
+    font-family: sans-serif;
+    font-style: italic;
+    width: 100%;
+    border-bottom: 2px solid black;
     padding: 5px 0px;
+    text-align: left;
 }
